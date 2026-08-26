@@ -1,0 +1,21 @@
+node_modules/
+dist/
+build/
+build.log
+*.log
+
+.env
+.env.*
+!.env.example
+
+demo/client/dist/
+demo/server/dist/
+
+# CDK synth output and build artifacts
+demo/deploy/cdk.out/
+demo/deploy/layers/
+
+# Local editor / OS noise
+.DS_Store
+.idea/
+.vscode/

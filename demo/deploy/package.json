@@ -1,0 +1,24 @@
+{
+  "name": "bedrock-image-preprocessor-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "scripts": {
+    "cdk": "cdk",
+    "build": "tsc",
+    "build:layer": "rm -rf layers/sharp/nodejs && mkdir -p layers/sharp/nodejs && npm install --prefix layers/sharp/nodejs --os=linux --cpu=x64 sharp",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.265.0",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.150.0",
+    "cdk-nag": "^2.38.2",
+    "esbuild": "^0.28.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bedrock-image-preprocessor-demo-server",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/client-bedrock": "^3.600.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.600.0",
+    "@aws-sdk/credential-providers": "^3.1075.0",
+    "@codegenie/serverless-express": "^4.17.1",
+    "@smithy/protocol-http": "^5.5.3",
+    "@smithy/signature-v4": "^5.5.3",
+    "express": "^4.21.0",
+    "multer": "^2.2.0",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.2.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

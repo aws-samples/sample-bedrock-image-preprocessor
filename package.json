@@ -1,0 +1,49 @@
+{
+  "name": "sample-bedrock-image-preprocessor",
+  "version": "1.0.0",
+  "description": "Sample: client-side image preprocessing for Amazon Bedrock inference requests",
+  "private": true,
+  "license": "MIT-0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "aws",
+    "bedrock",
+    "image",
+    "preprocessing",
+    "ai-sdk",
+    "openai",
+    "anthropic"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.5.0",
+    "vitest": "^4.1.11"
+  },
+  "peerDependencies": {
+    "ai": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "ai": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "author": "Amazon.com, Inc. or its affiliates"
+}
