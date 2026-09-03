@@ -16,7 +16,7 @@
     "@codegenie/serverless-express": "^4.17.1",
     "@smithy/protocol-http": "^5.5.3",
     "@smithy/signature-v4": "^5.5.3",
-    "express": "^4.21.0",
+    "express": "^5.2.1",
     "multer": "^2.2.0",
     "sharp": "^0.35.3"
   },
