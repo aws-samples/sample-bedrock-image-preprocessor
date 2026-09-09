@@ -17,7 +17,7 @@
     "@smithy/protocol-http": "^5.5.3",
     "@smithy/signature-v4": "^5.5.3",
     "express": "^4.21.0",
-    "multer": "^2.2.0",
+    "multer": "^2.3.0",
     "sharp": "^0.35.3"
   },
   "devDependencies": {
