@@ -28,7 +28,7 @@
     "@types/node": "^20.0.0",
     "esbuild": "^0.28.2",
     "typescript": "^5.5.0",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.12"
   },
   "peerDependencies": {
     "ai": ">=3.0.0"
